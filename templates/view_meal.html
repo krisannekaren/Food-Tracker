@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>View Food Details</h1>
+		<h3>{{ meals.food.name }}</h3>
+		<table class="table table-striped table-bordered">
+			<thead>
+			  <tr>
+
+			  </tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Calories</td>
+					<td>{{meals.get_total_calories}}</td>
+				</tr>
+				<tr>
+					<td>Total Fat</td>
+					<td>{{meals.get_total_fat}}</td>
+				</tr>
+			</tbody>
+		</table>				
+	</body>
+</html>
